@@ -50,6 +50,7 @@ export default function HomeClient() {
       </section>
       <button
         onClick={handleClick}
+        aria-label="Get new advice"
         className="bg-emerald-300 rounded-full p-[1.2rem] -mb-8 hover:shadow-[0px_1px_35px_rgba(0,0,0,0.2)] hover:shadow-emerald-300"
       >
         <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
