@@ -19,7 +19,7 @@ export default function HomeClient() {
     handleClick();
   }, []);
   return (
-    <article className="px-12 bg-gray-700 flex flex-col gap-4 items-center justify-center rounded-lg shadow-lg">
+    <article className="px-12 bg-gray-700 flex flex-col gap-4 items-center justify-center rounded-2xl shadow-lg">
       <section className="min-[600px]:max-w-md max-w-[15rem] w-full gap-4 tracking-widest flex flex-col items-center justify-center mb-[1.7rem] mt-12">
         <h1 className="text-emerald-300 text-center text-xs tracking-[0.2rem]">
           ADVICE #{advice ? advice?.id : "0"}
